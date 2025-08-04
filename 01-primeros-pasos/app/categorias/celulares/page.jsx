@@ -1,13 +1,11 @@
-import React from 'react'
-
-export const metadata = {
-  title : "Celulares"
-}
+import Numeros from "../../../components/Numeros"
 
 function celulares() {
+
   return (
     <div>
         <h1>Celulares</h1>
+        <Numeros/>
     </div>
   )
 }
