@@ -1,5 +1,6 @@
 import PostCard from '../../components/PostsCard'
 
+
 async function obtenerPosts () {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const data = await res.json();
@@ -18,6 +19,7 @@ async function PostsPage() {
                 <PostCard key={post.id} post={post}/>
             ))
         }
+        
     </div>
   )
 }

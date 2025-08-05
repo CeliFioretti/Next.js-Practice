@@ -7,7 +7,7 @@ export const metadata = {
 function hd() {
   return (
     <div>
-        <h2>Televisores HD</h2>
+        <h2>Monitores HD</h2>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export const metadata = {
 function leg() {
   return (
     <div>
-        <h2>Televisores LED</h2>
+        <h2>Monitores LED</h2>
     </div>
   )
 }
