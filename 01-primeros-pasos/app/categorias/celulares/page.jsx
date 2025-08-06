@@ -1,4 +1,4 @@
-import Numeros from "../../../components/Numeros"
+import Numeros from "@/components/Numeros"
 
 function celulares() {
 
