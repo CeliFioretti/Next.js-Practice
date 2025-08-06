@@ -9,7 +9,8 @@ async function obtenerDataRYM(page = 1) {
 }
 
 async function RickAndMortyPage({ searchParams }) {
-  const page = Number(searchParams?.page || 1);
+  const resolvedSearchParams = await searchParams;
+  const page = Number(resolvedSearchParams?.page || 1);
   const data = await obtenerDataRYM(page);
   const personajes = data.results;
 

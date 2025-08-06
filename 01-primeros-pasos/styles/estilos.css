@@ -39,6 +39,21 @@ body{
     width: 300px;
 }
 
+.div-rym h2{
+    color: rgb(42, 80, 235);
+}
+
+.div-rym-especial {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+.span-block {
+    font-weight: 700;
+}
+
 /*Estilos Paginación*/
 .pagination {
   display: flex;

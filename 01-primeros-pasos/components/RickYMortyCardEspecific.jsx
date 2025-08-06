@@ -1,7 +1,6 @@
 "use client"
 
 import '../styles/estilos.css'
-import Link from 'next/link'
 
 function RickYMortyCard( {personaje} ) {
   return (
@@ -11,7 +10,8 @@ function RickYMortyCard( {personaje} ) {
         <p><span className="span-block">Estado:</span> {personaje.status}</p>
         <p><span className="span-block">Especie:</span> {personaje.species}</p>
         <p><span className="span-block">Género:</span> {personaje.gender}</p>
-        <Link href={`/rickymorty/${personaje.id}`}>Ver detalles</Link>
+        <p><span className="span-block">Origen:</span> {personaje.origin.name}</p>
+        <p><span className="span-block">Lugar actual:</span> {personaje.location.name}</p>
     </div>
   )
 }
