@@ -5,8 +5,8 @@ export const metadata = {
 
 export default function televisores () {
     return (
-        <>
-            <h1>Televisores</h1>
-        </>
+        <div>
+            <h1 className="text-5xl text-center my-5 text-stone-500">Televisores</h1>
+        </div>
     )
 }

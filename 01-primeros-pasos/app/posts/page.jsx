@@ -1,7 +1,7 @@
 import PostCard from '@/components/PostsCard'
 
 
-async function obtenerPosts () {
+async function obtenerPosts() {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const data = await res.json();
 
@@ -15,17 +15,21 @@ async function obtenerPosts () {
 async function PostsPage() {
     const posts = await obtenerPosts();
 
-  return (
-    <div>
-        <h1>Posts</h1>
-        {
-            posts.map(post => (
-                <PostCard key={post.id} post={post}/>
-            ))
-        }
-        
-    </div>
-  )
+    return (
+        <div className='bg-gray-900'>
+            <div>
+                <h1 className='py-5 text-3xl uppercase font-bold text-center'>Publicaciones</h1>
+            </div>
+            <div className=' grid grid-cols-3 gap-5 px-15 pb-15'>
+                {
+                    posts.map(post => (
+                        <PostCard key={post.id} post={post} />
+                    ))
+                }
+            </div>
+        </div>
+
+    )
 }
 
 export default PostsPage

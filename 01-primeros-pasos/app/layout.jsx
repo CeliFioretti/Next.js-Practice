@@ -6,6 +6,8 @@
 
 import Navbar from '../components/Navbar'
 
+import "./globals.css"
+
 // Importar fuentes
 import { Roboto } from 'next/font/google'
 
