@@ -4,6 +4,9 @@ import PostCard from '../../components/PostsCard'
 async function obtenerPosts () {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const data = await res.json();
+
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+
     return data;
 }
 
