@@ -1,0 +1,62 @@
+/*Estilos Navegación y Barra de búsqueda*/
+body{
+    background-color: rgb(236, 237, 238);
+    padding: 0px 15px 0px 15px;
+}
+.nav-title {
+    color: rgb(57, 34, 227);
+    text-align: center;
+    font-size: 30px;
+}
+.navbar {
+    background-color: rgb(211, 211, 211);
+    padding: 15px;
+}
+.navbar, .navbar a{
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(47, 47, 49);
+}
+.navbar a:hover {
+    color: rgb(53, 116, 242);
+}
+
+/*Rick y Morty Estilos*/
+.rym-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre cards */
+    padding: 10px;
+}
+.div-rym {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+/*Estilos Paginación*/
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.button {
+  padding: 8px 12px;
+  background-color: #0055ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #003fcc;
+}
