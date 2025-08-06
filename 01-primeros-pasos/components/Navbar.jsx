@@ -3,7 +3,7 @@ import '../styles/estilos.css'
 
 export default function Navbar() {
   return (
-    <div className='navbar bg-zinc-700'>
+    <div className='navbar bg-zinc-900'>
       <Link href={'/'}><h1 className='nav-title hover:text-blue-600 text-blue-400'>Next.js</h1></Link>
       <ul className='nav-items text-lg text-stone-200'>
         <li className='hover:text-blue-600'><Link href="/">Home</Link></li>

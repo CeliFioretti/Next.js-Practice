@@ -16,7 +16,7 @@ async function PostsPage() {
     const posts = await obtenerPosts();
 
     return (
-        <div className='bg-gray-900'>
+        <div className=''>
             <div>
                 <h1 className='py-5 text-3xl uppercase font-bold text-center'>Publicaciones</h1>
             </div>
