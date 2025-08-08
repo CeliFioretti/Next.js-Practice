@@ -4,7 +4,7 @@
 // permitiendo incluir elementos persistentes como encabezados, navegación,
 // estilos comunes o configuraciones específicas para esa sección.
 
-import Navbar from '../components/Navbar'
+import Navbar from '@/components/Navbar'
 
 import "./globals.css"
 

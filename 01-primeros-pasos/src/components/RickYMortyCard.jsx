@@ -1,6 +1,6 @@
 "use client"
 
-import '../styles/estilos.css'
+import '@/app/estilos.css'
 import Link from 'next/link'
 
 function RickYMortyCard( {personaje} ) {

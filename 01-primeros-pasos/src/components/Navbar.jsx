@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import '../styles/estilos.css'
+import '@/app/estilos.css'
 
 export default function Navbar() {
   return (

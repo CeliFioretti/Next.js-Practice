@@ -1,5 +1,5 @@
-import '../../../styles/estilos.css'
-import RickYMortyCardEspecific from '../../../components/RickYMortyCardEspecific';
+import '@/app/estilos.css'
+import RickYMortyCardEspecific from '@/components/RickYMortyCardEspecific';
 
 async function ObtenerDataRYM(id) {
     const res = await fetch(`https://rickandmortyapi.com/api/character/${id}`);

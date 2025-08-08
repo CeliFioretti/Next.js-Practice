@@ -1,6 +1,6 @@
 import Link from "next/link";
-import RickYMortyCard from "../../components/RickYMortyCard";
-import '../../styles/estilos.css'
+import RickYMortyCard from "@/components/RickYMortyCard";
+import '@/app/estilos.css'
 
 async function obtenerDataRYM(page = 1) {
   const res = await fetch(`https://rickandmortyapi.com/api/character?page=${page}`);
